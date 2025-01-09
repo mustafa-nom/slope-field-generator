@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255, 255, 255; /* Light mode background */
+  --foreground: 0, 0, 0; /* Light mode foreground */
+  --muted: 240, 240, 240;
+  --muted-foreground: 120, 120, 120;
+  --primary: 0, 122, 255;
+  --primary-foreground: 255, 255, 255;
+  --border: 230, 230, 230;
+  --radius: 8px;
+}
+
+[data-theme="dark"] {
+  --background: 18, 18, 18; /* Dark mode background */
+  --foreground: 255, 255, 255; /* Dark mode foreground */
+  --muted: 60, 60, 60;
+  --muted-foreground: 160, 160, 160;
+  --primary: 10, 132, 255;
+  --primary-foreground: 255, 255, 255;
+  --border: 50, 50, 50;
+  --radius: 8px;
+}
