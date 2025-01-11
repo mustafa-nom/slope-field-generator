@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			verdana: ['Verdana', 'Geneva', 'sans-serif'],
+		},
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)',
@@ -21,7 +24,7 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
   	}
   },
   plugins: [
