@@ -34,7 +34,7 @@ const CodeToMathInfo = () => {
 
       const deltaY = (k1 + 2 * k2 + 2 * k3 + k4) / 6;
       x += h;
-      y += deltaY; // check footer for Rishi
+      y += deltaY;
 
       points.push({ x, y });
     }
