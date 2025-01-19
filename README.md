@@ -36,13 +36,15 @@ A modern web application built with **Next.js**, **React**, and **Tailwind CSS**
 ### **Mathematical Foundation**
 The project uses **4th Order Runge-Kutta (RK4)**, a numerical method for solving ordinary differential equations (ODEs).  
 
-**RK4 Formula**:
-- \( k₁ = h \cdot f(x, y) \)  
-- \( k₂ = h \cdot f(x + h/2, y + k₁/2) \)  
-- \( k₃ = h \cdot f(x + h/2, y + k₂/2) \)  
-- \( k₄ = h \cdot f(x + h, y + k₃) \)  
-- **Update Solution**:  
-  \( y_{n+1} = y_n + (1/6)(k₁ + 2k₂ + 2k₃ + k₄) \)
+### **RK4 Formula**
+
+- `k₁ = h * f(x, y)`
+- `k₂ = h * f(x + h/2, y + k₁/2)`
+- `k₃ = h * f(x + h/2, y + k₂/2)`
+- `k₄ = h * f(x + h, y + k₃)`
+
+**Update Solution**:
+- `yₙ₊₁ = yₙ + (1/6) * (k₁ + 2k₂ + 2k₃ + k₄)`
 
 ### **Graphing Workflow**
 1. **Slope Field**: 
@@ -63,8 +65,6 @@ The project uses **4th Order Runge-Kutta (RK4)**, a numerical method for solving
 | `GraphForm.jsx`            | Handles user input for graph parameters and differential equations.            |
 | `GraphCanvas.jsx`          | Renders the slope field and solution curves dynamically using HTML5 Canvas.    |
 | `CodeToMathInfo.jsx`       | Explains the underlying mathematical concepts (RK4) with code and formulas.    |
-| `Header.jsx` & `Footer.jsx`| Add project branding, credits, and navigation links.                           |
-| `globals.css` & Tailwind   | Provides responsive styling and theme configuration.                          |
 
 ---
 
