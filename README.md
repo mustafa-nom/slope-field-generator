@@ -4,6 +4,21 @@ A modern web application built with **Next.js**, **React**, and **Tailwind CSS**
 
 ---
 
+## **Live Demo**
+Check out the live version here: **[Slope Field Generator](https://slope-field-generator.vercel.app/)**
+
+---
+
+## **Tech Stack**
+
+- **Frontend Framework**: [Next.js](https://nextjs.org/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
+- **Mathematical Computation**: [Math.js](https://mathjs.org/)  
+- **Canvas Rendering**: Native HTML5 Canvas API  
+- **Code Highlighting**: [React Code Blocks](https://github.com/rajinwonderland/react-code-blocks)
+
+---
+
 ## **Features**
 
 - **Interactive Graphing**: Users can input a differential equation and customize graph parameters to generate dynamic slope fields.
@@ -18,16 +33,6 @@ A modern web application built with **Next.js**, **React**, and **Tailwind CSS**
 - **Clear UI**:
   - Built with Tailwind CSS for a clean, professional appearance.
   - Motion effects enhance user experience.
-
----
-
-## **Tech Stack**
-
-- **Frontend Framework**: [Next.js](https://nextjs.org/)  
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
-- **Mathematical Computation**: [Math.js](https://mathjs.org/)  
-- **Canvas Rendering**: Native HTML5 Canvas API  
-- **Code Highlighting**: [React Code Blocks](https://github.com/rajinwonderland/react-code-blocks)
 
 ---
 
@@ -80,12 +85,9 @@ Users can input values like:
 
 ---
 
-## **Live Demo**
-Check out the live version here: **[Slope Field Generator](https://slope-field-generator.vercel.app/)**
+## **Contact & Credits**
 
 ---
-
-## **Contact & Credits**
 
 - **Created by**: Mustafa Nomair  
 - **Email**: [nomair@usc.edu](mailto:nomair@usc.edu)  
