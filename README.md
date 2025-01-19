@@ -7,8 +7,6 @@ A modern web application built with **Next.js**, **React**, and **Tailwind CSS**
 ## **Live Demo**
 Check out the live version here: **[Slope Field Generator](https://slope-field-generator.vercel.app/)**
 
----
-
 ## **Tech Stack**
 
 - **Frontend Framework**: [Next.js](https://nextjs.org/)  
@@ -16,8 +14,6 @@ Check out the live version here: **[Slope Field Generator](https://slope-field-g
 - **Mathematical Computation**: [Math.js](https://mathjs.org/)  
 - **Canvas Rendering**: Native HTML5 Canvas API  
 - **Code Highlighting**: [React Code Blocks](https://github.com/rajinwonderland/react-code-blocks)
-
----
 
 ## **Features**
 
@@ -34,7 +30,6 @@ Check out the live version here: **[Slope Field Generator](https://slope-field-g
   - Built with Tailwind CSS for a clean, professional appearance.
   - Motion effects enhance user experience.
 
----
 
 ## **How It Works**
 
@@ -61,9 +56,11 @@ The project uses **4th Order Runge-Kutta (RK4)**, a numerical method for solving
 - **Mouse Interaction**: Users can click on the graph to generate additional solution curves starting from new initial points.
 - **Reset**: A button clears the graph for fresh inputs.
 
----
+
 
 ## **Key Files**
+
+---
 
 | **File**                   | **Description**                                                                 |
 |----------------------------|---------------------------------------------------------------------------------|
@@ -83,7 +80,6 @@ Users can input values like:
 ### **Dynamic Graph Rendering**
 - Real-time graphing of slope fields and solution curves.
 
----
 
 ## **Contact & Credits**
 
