@@ -1,6 +1,6 @@
 # **Slope Field Generator**
 
-A modern web application built with **Next.js**, **React**, and **Tailwind CSS** to create interactive slope field graphs for differential equations. This project showcases advanced frontend development, mathematical computation, and dynamic graph rendering.
+A modern web application built with **Next.js**, **React**, and **Tailwind CSS** to create interactive slope field graphs for differential equations. This project was for practicing advanced frontend development through mathematical computation and dynamic graph rendering.
 
 ---
 
