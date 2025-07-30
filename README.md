@@ -2,8 +2,6 @@
 
 A modern web application built with **Next.js**, **React**, and **Tailwind CSS** to create interactive slope field graphs for differential equations. This project was for practicing advanced frontend development through mathematical computation and dynamic graph rendering.
 
----
-
 ## **Live Demo**
 Check out the live version here: **[Slope Field Generator](https://slope-field-generator.vercel.app/)**
 
@@ -60,15 +58,12 @@ The project uses **4th Order Runge-Kutta (RK4)**, a numerical method for solving
 
 ## **Key Files**
 
----
-
 | **File**                   | **Description**                                                                 |
 |----------------------------|---------------------------------------------------------------------------------|
 | `GraphForm.jsx`            | Handles user input for graph parameters and differential equations.            |
 | `GraphCanvas.jsx`          | Renders the slope field and solution curves dynamically using HTML5 Canvas.    |
 | `CodeToMathInfo.jsx`       | Explains the underlying mathematical concepts (RK4) with code and formulas.    |
 
----
 
 ## **Preview**
 
@@ -82,12 +77,8 @@ Users can input values like:
 
 
 ## **Contact & Credits**
-
----
-
 - **Created by**: Mustafa Nomair  
 - **Email**: [nomair@usc.edu](mailto:nomair@usc.edu)  
 - **LinkedIn**: [Mustafa Nomair](https://www.linkedin.com/in/mustafa-nomair/)  
 - **Inspiration**: Thanks to Mr. Magallon for teaching Calculus III & Differential Equations!
 
----
